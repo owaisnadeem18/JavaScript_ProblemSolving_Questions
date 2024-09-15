@@ -7,7 +7,8 @@ function FindHighestNum(array) {
 
   let sorted_Arr = array.sort((a, b) => a - b);
 
-  return sorted_Arr[sorted_Arr.length - 1];
+  // return sorted_Arr[sorted_Arr.length - 1];
+  return sorted_Arr
 }
 
 console.log(FindHighestNum(arr));
